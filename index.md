@@ -2,8 +2,6 @@
 layout: default
 title: Home
 ---
-# Welcome to NEXTGENDEM
+# Hi, I'm Alejandro!
 
-This is the homepage of the NEXTGENDEM project.
-
-Insert more content here.
+I am a Computer Engineer from the Technological Institute of the Canary Islands. Welcome to my personal website!
