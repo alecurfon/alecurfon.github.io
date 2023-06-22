@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+main h1 {
+    font-size: 24px;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+main ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+main ul li {
+    margin-bottom: 5px;
+}
