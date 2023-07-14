@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ page.title }} - Alejandro Curbelo Fontelos</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
-  </head>
-  <body>
-    <header class="site-header">
-      <h1>Alejandro Curbelo Fontelos</h1>
-      <nav class="site-navigation">
+<head>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="header-content">
+        <div class="profile-picture">
+          <img src="/assets/images/yio.jpg" alt="Profile Picture">
+        </div>
+        <h1>{{ page.title }} - Alejandro Curbelo Fontelos</h1>
+      </div>
+      <nav>
         <a href="/">Home</a>
-        <a href="/about">About</a>
         <a href="/projects">Projects</a>
+        <a href="/about">About me</a>
       </nav>
     </header>
     <main>
       {{ content }}
     </main>
-    <footer class="site-footer">
-      &copy; {{ site.author }}
+    <footer>
+      &copy; {{ site.title }} {{ "now" | date: "%Y" }}
+      <p>Contact me at <a href="mailto:alecurfon@gmail.com">alecurfon@gmail.com</a></p>
     </footer>
-  </body>
+  </div>
+</body>
 </html>
