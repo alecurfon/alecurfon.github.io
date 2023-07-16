@@ -49,6 +49,19 @@ html, body {
   }
 }
 
+/* Media query for screens between 601px and 900px */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .header-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .profile-picture {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+}
+
 header {
     padding: 20px;
     background-image: url('../images/astronaut.webp');
